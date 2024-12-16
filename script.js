@@ -1,5 +1,11 @@
 function checkPalindrome(){
     const textInput = document.getElementById('text-input').value;
+
+    if(textInput === ""){
+        alert("Please input a text");
+        return;
+    }
+
     const cleanedString = textInput.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
     const isPalindrome = cleanedString === cleanedString.split('').reverse().join('');
     const result = document.getElementById('result');
