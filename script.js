@@ -11,10 +11,10 @@ function checkPalindrome(){
     const result = document.getElementById('result');
 
     if (isPalindrome){
-        result.textContent = `"${textInput}" is  a PALINDROME`;
+        result.textContent = `Yes, "${textInput}" is  a PALINDROME!`;
         result.style.color = '#90ee90';
     } else{
-        result.textContent = `"${textInput}" is NOT a palindrome`;
+        result.textContent = `No, "${textInput}" is NOT a palindrome!`;
         result.style.color = 'red';
     }
 }
