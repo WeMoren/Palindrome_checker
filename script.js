@@ -1,8 +1,11 @@
+const checkBtn = document.getElementById('check-btn');
+checkBtn.addEventListener('click', checkPalindrome);
+
 function checkPalindrome(){
     const textInput = document.getElementById('text-input').value;
 
     if(textInput === ""){
-        alert("Please input a text");
+        alert("Please input a value");
         return;
     }
 
