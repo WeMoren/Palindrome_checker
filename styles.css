@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     background-color: #2c2c75;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .palindrome-container{
@@ -68,6 +68,21 @@
 
 span{
     color: #cccc;
+}
+
+.footer{
+    position: absolute;
+    bottom: 16px;
+}
+
+.footer p{
+    font-size: 8px;
+    color: #cccc;
+}
+
+.developer{
+    color: #fff;
+    font-size: 9px;
 }
 
 @media(max-width:640px){
